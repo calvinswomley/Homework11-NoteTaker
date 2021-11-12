@@ -48,7 +48,6 @@ app.post('/api/notes', (req, res)=> {
             text,
             id: randomUUID(),
         };
-        //const noteString = JSON.stringify(newNote);
         const dbUrl = path.join(__dirname, './db/db.json');
         readAndAppend(newNote, dbUrl);
         const response = {
@@ -60,10 +59,6 @@ app.post('/api/notes', (req, res)=> {
         res.status(500).json('Error: POST unsuccessful');
     }
 });
-//1.2 post to update existing note //SEE EXPRESS DAY 2: 16 body parsing.
-//app.post('/api/notes/:review_id', (req, res) => {
- ///   if(req.body && req.params.note_id)
-//})
 
 //2.[WORKS] get route (/api/notes - read and return all notes from db.json)
 app.get('/api/notes', (req, res) => {
@@ -85,6 +80,5 @@ app.get('/', (req, res) => {
 
 //listens for any incoming connections on specified port (port defined above)
 app.listen(PORT, () => {
-    //do something
     console.log(`listening on port ${PORT}`)
 });

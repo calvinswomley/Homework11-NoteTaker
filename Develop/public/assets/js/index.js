@@ -32,7 +32,6 @@ const getNotes = () =>
       'Content-Type': 'application/json',
     },
   });
-  console.log('step4 get the notes')
 
   const saveNote = (note) =>
   fetch('/api/notes', {
@@ -81,11 +80,8 @@ const handleNoteSave = () => {
     text: noteText.value,
   };
   saveNote(newNote).then(() => {
-    console.log('step1')
     getAndRenderNotes();
-    console.log('step2')
     renderActiveNote();
-    console.log('step3')
   });
 };
 
@@ -162,7 +158,6 @@ const renderNoteList = async (notes) => {
 
       liEl.append(delBtnEl);
     }
-
     return liEl;
   };
 
