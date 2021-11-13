@@ -9,7 +9,7 @@ Homework 11 Express JS: Note Taker App
 - [Liscence](#Liscence)
 - [Contributors](#Contributors)
 - [Contacts](#Contacts)
-- [Video Recording Link](#VideoRecordingLink)
+- [Deployed Application and GitHub Repository Link](#DeployedApplicationandGitHubRepositoryLink)
 
 
 ## Description:
@@ -18,7 +18,7 @@ Homework 11 Express JS: Note Taker App
     On the front end, this application uses HTML, CSS and JavaScript. The application uses Node JS and Express JS to route and connect data from the front end to the database.
 
 ## Screenshot:
-![/////add description here////](////add file path here/////)
+![Note Taker deployed application screeshot](./Finished_App_Screenshot.PNG)
 
 ## Installation
     No installation required. Access this application via web browser.
@@ -38,6 +38,10 @@ Homework 11 Express JS: Note Taker App
     Calvin Swomley
 
 ## Contact:
-[calvinswomley@gmail.com](mailto: calvinswomley@gmail.com) | [https://github.com/calvinswomley/Homework10-TeamProfileGenerator](https://github.com/calvinswomley/Homework10-TeamProfileGenerator)
+calvinswomley@gmail.com | [https://github.com/calvinswomley](https://github.com/calvinswomley)
 
-## Deployed Application Link
+## Deployed Application and GitHub Repository Link
+[https://enigmatic-river-67357.herokuapp.com/](https://enigmatic-river-67357.herokuapp.com/)
+
+[https://github.com/calvinswomley/Homework11-NoteTaker](https://github.com/calvinswomley/Homework11-NoteTaker)
+
