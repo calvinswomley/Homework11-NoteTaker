@@ -6,7 +6,7 @@ const fs = require("fs");
 //Need absolute path so define it here. Note that 'path' comes with NodeJS
 const path = require("path");
 const db = require("./db/db.json");
-const PORT = 3003;
+const PORT = 80;
 const app = express();
 
 //allow express to parse data
